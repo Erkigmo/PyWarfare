@@ -1,0 +1,17 @@
+{
+  "name": "pywarfaregraphics",
+  "version": "0.0.1",
+  "factorio_version": "1.1",
+  "title": "Pyanodons Warfare Graphics",
+  "author": "Erkigmo",
+  "contact": "",
+  "homepage": "https://discord.gg/SBHM3h5Utj",
+  "description": "Graphics pack for PyWarfare",
+  "dependencies": [
+    
+  ],
+  "package": {
+    "ignore": [],
+    "scripts": {}
+  }
+}
