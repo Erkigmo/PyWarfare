@@ -39,5 +39,11 @@ data:extend {
         name = "py-warfare-items",
         group = "pywarfare",
         order = "e"
+        {
+        type = "fluid-subgroup",
+        name = "py-warfare-items",
+        group = "pywarfare",
+        order = "f"
+    },
     },
 }
