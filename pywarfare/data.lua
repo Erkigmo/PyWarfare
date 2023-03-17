@@ -1,15 +1,23 @@
+
 require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 local RECIPE = require("__stdlib__/stdlib/data/recipe")
 
-require("prototypes/item-groups")
---require("prototypes/projectiles/low-power-grenade")
---ITEMS--
+-- item groups
+require("prototypes/groups/item-groups")
+-- fluids
+require("prototypes/fluids/fluids")
+require("prototypes/fluids/gases")
+-- items
 require("prototypes/items/items")
---FLUIDS--
-require("prototypes/fluids/nitrogen-dioxide")
-require("prototypes/fluids/nitric-acid")
-require("prototypes/fluids/nitrogen-oxide")
---RECIPES--
---require("prototypes/recipes/alien-metal/recipes-alien-metal")
+-- projectiles (grenades)
+require("prototypes/projectiles/projectiles")
+-- capsules (grenades)
+require("prototypes/items/capsules")
+-- recipes
+require("prototypes/recipes/items")
+require("prototypes/recipes/fluids")
 require("prototypes/recipes/recipes")
-require("prototypes/recipes/nitric-acid/nitric-acid-recipes")
+-- recips unlocks
+require("prototypes/technology/unlocks")
+-- tech prerequisites
+require("prototypes/technology/prerequisites")

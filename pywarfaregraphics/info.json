@@ -8,10 +8,6 @@
   "homepage": "https://discord.gg/SBHM3h5Utj",
   "description": "Graphics pack for PyWarfare",
   "dependencies": [
-    
-  ],
-  "package": {
-    "ignore": [],
-    "scripts": {}
-  }
+
+  ]
 }

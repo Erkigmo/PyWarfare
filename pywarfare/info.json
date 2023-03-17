@@ -3,19 +3,13 @@
   "version": "0.0.1",
   "factorio_version": "1.1",
   "title": "Pyanodons Warfare",
-  "author": "Erkigmo",
+  "author": "Erkigmo, MrJakobLaich",
   "contact": " ",
   "homepage": "https://discord.gg/SBHM3h5Utj",
   "description": "Adds military stuff to Pyanodons",
   "dependencies": [
     "pyalternativeenergy >= 1.1.7",
-    "pypostprocessing >= 0.2.3",
     "pywarfaregraphics",
     "! RenaiTranspotation"
-  ],
-  "package": {
-    "ignore": [],
-    "scripts": {}
-  }
+  ]
 }
-//Dev discord: "https://discord.gg/3NYzDxM3PP" (REMOVE BEFORE POSTING!!!!!)
