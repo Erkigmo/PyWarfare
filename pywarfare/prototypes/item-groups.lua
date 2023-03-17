@@ -1,4 +1,4 @@
-data:extend {
+ata:extend {
     {
         type = "item-group",
         name = "pywarfare",
@@ -8,28 +8,28 @@ data:extend {
         icon_size = 64
     },
     {
-        type = "py-warfare-buildings-mk01",
-        name = "py-warfare-items",
+        type = "item-subgroup",
+        name = "py-warfare-buildings-mk01",
         group = "pywarfare",
         order = "a"
     },
     {
-        type = "py-warfare-buildings-mk02",
-        name = "py-warfare-items",
+        type = "item-subgroup",
+        name = "py-warfare-buildings-mk02",
         group = "pywarfare",
         order = "b"
 
     },
     {
-        type = "py-warfare-buildings-mk03",
-        name = "py-warfare-items",
+        type = "item-subgroup",
+        name = "py-warfare-buildings-mk03",
         group = "pywarfare",
         order = "c"
         
     },
     {
-        type = "py-warfare-buildings-mk04",
-        name = "py-warfare-items",
+        type = "item-subgroup",
+        name = "py-warfare-buildings-mk04",
         group = "pywarfare",
         order = "d"
         
@@ -39,11 +39,17 @@ data:extend {
         name = "py-warfare-items",
         group = "pywarfare",
         order = "e"
-        {
-        type = "fluid-subgroup",
-        name = "py-warfare-items",
+    },
+    {
+        type = "item-subgroup",
+        name = "py-warfare-liquids",
         group = "pywarfare",
         order = "f"
     },
+    {
+        type = "item-subgroup",
+        name = "py-warfare-gases",
+        group = "pywarfare",
+        order = "f"
     },
 }
